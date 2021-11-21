@@ -26,7 +26,7 @@ bot = Client('pdisk bot',
 async def start(bot, message):
     await message.reply(
         f"**𝗛𝗘𝗟𝗟𝗢🎈{message.chat.first_name}!**\n\n"
-        "𝐈'𝐦 𝐚 𝐏𝐝𝐢𝐬𝐤 𝐔𝐩𝐥𝐨𝐚𝐝𝐞𝐫 𝐛𝐨𝐭. 𝐉𝐮𝐬𝐭 𝐬𝐞𝐧𝐝 𝐦𝐞 𝐥𝐢𝐧𝐤 𝐨𝐫 𝐅𝐮𝐥𝐥 𝐩𝐨𝐬𝐭... \n 𝐓𝐡𝐢𝐬 𝐛𝐨𝐭 𝐢𝐬 𝐦𝐚𝐝𝐞 𝐛𝐲 @ParitoshPky_Official💖")
+        "𝐈'𝐦 𝐚 𝐏𝐝𝐢𝐬𝐤 𝐔𝐩𝐥𝐨𝐚𝐝𝐞𝐫 𝐛𝐨𝐭. 𝐉𝐮𝐬𝐭 𝐬𝐞𝐧𝐝 𝐦𝐞 𝐥𝐢𝐧𝐤 𝐨𝐫 𝐅𝐮𝐥𝐥 𝐩𝐨𝐬𝐭... \n 𝐓𝐡𝐢𝐬 𝐛𝐨𝐭 𝐢𝐬 𝐦𝐚𝐝𝐞 𝐛𝐲 @Robert_Pattinson119💖")
 
 
 @bot.on_message(filters.text & filters.private)
@@ -146,9 +146,12 @@ async def remove_username(new_List):
 
 async def addFooter(str):
     footer = """
-━━━━━━━━━━━━━━━
-⚙️ How to Download / Watch Online or Change Audio : https://bit.ly/pdisk_tuts
-━━━━━━━━━━━━━━━
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+💫𝗪𝗮𝘁𝗰𝗵 𝗢𝗻𝗹𝗶𝗻𝗲 & 𝗙𝗮𝘀𝘁 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱💫
+(Just Install PLAYit App From Playstore)
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+
+
 ⭐️JOIN CHANNEL ➡️ t.me/""" + CHANNEL
     return str + footer
 
